@@ -1,0 +1,32 @@
+{
+  "name": "akuku",
+  "version": "0.0.0",
+  "description": "Small timing counter utility.",
+  "author": {
+    "name": "Damian Krzeminski",
+    "email": "pirxpilot@furkot.com",
+    "url": "https://pirxpilot.me"
+  },
+  "repository": "pirxpilot/akuku",
+  "license": "ICS",
+  "keywords": [
+    "akuku",
+    "timer",
+    "profiling",
+    "performance",
+    "counters",
+    "debug"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "jshint": "^2.9.5",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "make check"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ]
+}
