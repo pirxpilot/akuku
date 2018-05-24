@@ -1,5 +1,5 @@
 var assert = require('assert');
-var akuku = require('../');
+var akuku = require('../lib/akuku');
 
 describe('akuku', function () {
   it('measure time and count', function (done) {
