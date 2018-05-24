@@ -27,7 +27,7 @@ describe('akuku', function () {
         assert(active[1] > 50 * 1e6, 'some nanos must have elapsed');
         assert.equal(counter, 4);
 
-        assert.equal(tm.toString(), '4 test ABC: 0 hours 0 minutes 0 seconds');
+        assert.ok(/\s+4 test ABC\s+0 hours 0 minutes 0 seconds/.test(tm.toString()));
 
         done();
       }, 37);

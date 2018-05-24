@@ -9,13 +9,13 @@ describe('counter', function () {
 
     countA();
 
-    assert.equal(c.toString(), '1 A\n0 B');
     assert.deepEqual(c.toObject(), { A: 1, B: 0 });
+    assert.ok(/1 A\s+0 B/.test(c.toString()));
 
     countB();
     countA(3);
 
-    assert.equal(c.toString(), '4 A\n1 B');
     assert.deepEqual(c.toObject(), { A: 4, B: 1 });
+    assert.ok(/4 A\s+1 B/.test(c.toString()));
   });
 });
