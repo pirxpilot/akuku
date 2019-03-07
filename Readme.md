@@ -82,8 +82,8 @@ ICS © [Damian Krzeminski](https://pirxpilot.me)
 [npm-image]: https://img.shields.io/npm/v/akuku.svg
 [npm-url]: https://npmjs.org/package/akuku
 
-[travis-url]: https://travis-ci.org/pirxpilot/akuku
-[travis-image]: https://img.shields.io/travis/pirxpilot/akuku.svg
+[travis-url]: https://travis-ci.com/pirxpilot/akuku
+[travis-image]: https://img.shields.io/travis/com/pirxpilot/akuku.svg
 
 [deps-image]: https://img.shields.io/david/pirxpilot/akuku.svg
 [deps-url]: https://david-dm.org/pirxpilot/akuku
