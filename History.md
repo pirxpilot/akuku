@@ -1,4 +1,12 @@
 
+1.1.1 / 2019-03-07
+==================
+
+ * replace mocha with tape
+ * add LICENSE file
+ * fix travis badge in Readme
+ * fix typo in license (ICS -> ISC)
+
 1.1.0 / 2018-05-24
 ==================
 
