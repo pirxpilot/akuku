@@ -42,6 +42,13 @@ doSomethingAsync(function() {
 tm.dump(); // will print sum of times between start and stop, and all associated counters
 ```
 
+## Environment
+
+The `AKUKU` environment variable has to be set to `1`, `on`, or `true` to enable `akuku` timers and counters.
+
+    AKUKU=1 node myapp
+
+When `AKUKU` is not defined or set to a _falsy_ value `akuku` API is implemented using empty stubs.
 
 ## API
 
