@@ -1,7 +1,6 @@
 [![NPM version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
+[![Build Status][build-image]][build-url]
 [![Dependency Status][deps-image]][deps-url]
-[![Dev Dependency Status][deps-dev-image]][deps-dev-url]
 
 # akuku
 
@@ -86,14 +85,12 @@ Its value will become part of the state.
 
 ICS © [Damian Krzeminski](https://pirxpilot.me)
 
-[npm-image]: https://img.shields.io/npm/v/akuku.svg
+[npm-image]: https://img.shields.io/npm/v/akuku
 [npm-url]: https://npmjs.org/package/akuku
 
-[travis-url]: https://travis-ci.com/pirxpilot/akuku
-[travis-image]: https://img.shields.io/travis/com/pirxpilot/akuku.svg
+[build-url]: https://github.com/pirxpilot/akuku/actions/workflows/check.yaml
+[build-image]: https://img.shields.io/github/workflow/status/pirxpilot/akuku/check
 
-[deps-image]: https://img.shields.io/david/pirxpilot/akuku.svg
-[deps-url]: https://david-dm.org/pirxpilot/akuku
+[deps-image]: https://img.shields.io/librariesio/release/npm/akuku
+[deps-url]: https://libraries.io/npm/akuku
 
-[deps-dev-image]: https://img.shields.io/david/dev/pirxpilot/akuku.svg
-[deps-dev-url]: https://david-dm.org/pirxpilot/akuku?type=dev
