@@ -89,7 +89,7 @@ ICS © [Damian Krzeminski](https://pirxpilot.me)
 [npm-url]: https://npmjs.org/package/akuku
 
 [build-url]: https://github.com/pirxpilot/akuku/actions/workflows/check.yaml
-[build-image]: https://img.shields.io/github/workflow/status/pirxpilot/akuku/check
+[build-image]: https://img.shields.io/github/actions/workflow/status/pirxpilot/akuku/check.yaml?branch=main
 
 [deps-image]: https://img.shields.io/librariesio/release/npm/akuku
 [deps-url]: https://libraries.io/npm/akuku
