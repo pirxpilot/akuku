@@ -19,9 +19,7 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "@pirxpilot/jshint": "~3",
-    "tap-spec": "^5.0.0",
-    "tape": "^5.0.0"
+    "@pirxpilot/jshint": "~3"
   },
   "scripts": {
     "test": "make check"
