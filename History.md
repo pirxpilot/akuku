@@ -1,4 +1,10 @@
 
+1.1.3 / 2024-01-31
+==================
+
+ * replace tape with node:test
+ * replace jshint with @pirxpilot/jshint
+
 1.1.2 / 2020-06-03
 ==================
 
