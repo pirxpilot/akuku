@@ -4,7 +4,7 @@ const dummy = require('./lib/dummy');
 module.exports = checkEnvironment() ? akuku : dummy;
 
 function checkEnvironment() {
-  let env = process.env.AKUKU;
+  const env = process.env.AKUKU;
   if (!env) {
     return false;
   }

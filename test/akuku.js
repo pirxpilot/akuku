@@ -2,26 +2,25 @@ const test = require('node:test');
 const assert = require('node:assert/strict');
 const akuku = require('../lib/akuku');
 
-test('measure time and count', function (_, done) {
-  let tm = akuku('test ABC');
+test('measure time and count', (_, done) => {
+  const tm = akuku('test ABC');
 
   tm.start();
 
   assert.ok(tm.toObject().activeNow, 'should be active after start');
 
-  setTimeout(function () {
-
+  setTimeout(() => {
     tm.stop();
 
-    let { counter } = tm.toObject();
+    const { counter } = tm.toObject();
     assert.equal(counter, 1);
 
     tm.start(undefined, 3);
 
-    setTimeout(function () {
+    setTimeout(() => {
       tm.stop();
 
-      let { activeNow, active, counter } = tm.toObject();
+      const { activeNow, active, counter } = tm.toObject();
 
       assert.ok(!activeNow);
       assert.equal(active[0], 0, 'not even a second elapsed');
@@ -32,18 +31,16 @@ test('measure time and count', function (_, done) {
       done();
     }, 37);
   }, 25);
-
 });
 
-test('should wrap next', function (_, done) {
-
-  let tm = akuku('test BCD');
+test('should wrap next', (_, done) => {
+  const tm = akuku('test BCD');
 
   function next() {
     assert.ok(true);
     done();
   }
 
-  let fn = tm.start(next);
+  const fn = tm.start(next);
   setTimeout(fn, 22);
 });
