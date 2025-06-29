@@ -3,10 +3,10 @@ const assert = require('node:assert/strict');
 
 const counters = require('../lib/counters');
 
-test('must count', function () {
-  let c = counters();
-  let countA = c.add('A');
-  let countB = c.add('B');
+test('must count', () => {
+  const c = counters();
+  const countA = c.add('A');
+  const countB = c.add('B');
 
   countA();
 
